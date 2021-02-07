@@ -1,1 +1,1 @@
-# Counter-Strike-Global-Offensive-Copy-Pasta-Maker
+# Counter-Strike: Global Offensive Automatic Text Bind Creator
