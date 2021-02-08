@@ -5,13 +5,13 @@ import os.path
 def csgo(): # Main function that actually creates the bind in the autoexec file
     cfg_dict = {} 
     key = str(input("Please enter the key you wish to bind the copypasta to: "))
-    while key not in ["kp_end","kp_downarrow","kp_pgdn","kp_leftarrow","kp_5","kp_rightarrow","kp_uparrow",
+    while key not in ["kp_end","kp_downarrow","kp_pgdn","kp_leftarrow","kp_5","kp_rightarrow","kp_uparrow", # Makes sure that the key input is valid for csgo
 	    "kp_pgup","kp_ins","kp_del","kp_slash","kp_multiply","kp_minus","kp_plus","kp_enter","ins","del","home","end","pgup","pgdn","uparrow","leftarrow","downarrow",
-	    "rightarrow","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","1","2","3","4","5","6","7","8","9","0","a","b","c","d","e","f","g","h","i","j","k","l","m",
-	    "n","o","p","q","r","s","t","u","v","w","x","y","z","space","-","=","[","]","\\","semicolon","'",",",".","/","backspace","tab","enter","capslock","shift","rshift",
+	    "rightarrow","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","1","2","3","4","5","6","7","8","9","0","a","b","c","d","e","f","g","h","i","j","k","l",
+	    "m","n","o","p","q","r","s","t","u","v","w","x","y","z","space","-","=","[","]","\\","semicolon","'",",",".","/","backspace","tab","enter","capslock","shift","rshift",
 	    "ctrl","rctrl","alt","ralt","mouse1","mouse2","mouse3","mouse4","mouse5","mwheeldown","mwheelup"]:
         key = str(input("The key you wished to bind the copypasta to was invalid. Please re-enter the key you wish to bind the copypasta to.\n"
-                        "If the error persists go to 'https://totalcsgo.com/binds/keys' and look for the appropriate source bind code there: "))            # Makes sure that the key input is valid for csgo
+                        "If the error persists go to 'https://totalcsgo.com/binds/keys' and look for the appropriate source bind code there: "))
     pastaname = str(input("Please enter the name of your copypasta: ")) 
     new_line_check = input("Does the copypasta have any newlines, like \n this? Please enter Y for Yes or N for No: ")
 
